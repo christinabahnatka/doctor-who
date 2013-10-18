@@ -10,10 +10,17 @@
 </head>
 
 <body>
-<h1>This is My Doctor Who Website
-</h1>
-<h2>There are many like it.</h2>
-<h3>But this one is mine. </h3>
-<p>Christina</p>
+<table>
+  <tr>
+    <td colspan="2"><p>[Primary Navigation]</p></td>
+  </tr>
+  <tr>
+    <td colspan="2">[Banner]</td>
+  </tr>
+  <tr>
+    <td>[Secondary Navigation]</td>
+    <td>[Content]</td>
+  </tr>
+</table>
 </body>
 </html>

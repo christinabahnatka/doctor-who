@@ -3,10 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <!-- TemplateBeginEditable name="doctitle" -->
-<title>Untitled Document</title>
+<title>The Doctor Who Website</title>
 <!-- TemplateEndEditable -->
 <!-- TemplateBeginEditable name="head" -->
 <!-- TemplateEndEditable -->
+<!-- TemplateParam name="The Doctor Secondary Menu" type="boolean" value="false" -->
+<!-- TemplateParam name="Companions Secondary Menu" type="boolean" value="false" -->
 </head>
 
 <body>
@@ -18,8 +20,30 @@
     <td colspan="2">[Banner]</td>
   </tr>
   <tr>
-    <td>[Secondary Navigation]</td>
-    <td>[Content]</td>
+    <td><p>&nbsp;</p>
+      <!-- TemplateBeginIf cond="_document['The Doctor Secondary Menu']" -->
+      <table>
+        <tr>
+          <td><p>The First Doctor</p></td>
+        </tr>
+        <tr>
+          <td>The Second Doctor</td>
+        </tr>
+        <tr>
+          <td>The Third Doctor</td>
+        </tr>
+      </table>
+      <!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['Companions Secondary Menu']" -->
+      <table>
+        <tr>
+          <td>Rose Tyler</td>
+        </tr>
+        <tr>
+          <td>Amy Pond</td>
+        </tr>
+      </table>
+      <!-- TemplateEndIf --></td>
+    <td>[<!-- TemplateBeginEditable name="Content Area" -->Content<!-- TemplateEndEditable -->]</td>
   </tr>
 </table>
 </body>

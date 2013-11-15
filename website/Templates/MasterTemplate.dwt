@@ -111,7 +111,7 @@
         </tr>
       </table>
     <!-- TemplateEndIf --></td>
-    <td width="83"><!-- TemplateBeginEditable name="Content Area" -->Content<!-- TemplateEndEditable --></td>
+    <td><!-- TemplateBeginEditable name="Content Area" -->Content<!-- TemplateEndEditable --></td>
   </tr>
 </table>
 </body>

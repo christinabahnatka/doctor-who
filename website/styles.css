@@ -22,7 +22,12 @@ body     {
 }
 td {
 	background-color: #A0ACB9;
+	text-align: left;
+	vertical-align: top;
 }
 .doctor-who-content p {
 	line-height: 30px;
+}
+.secondary td {
+	white-space: nowrap;
 }

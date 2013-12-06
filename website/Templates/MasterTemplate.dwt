@@ -21,11 +21,10 @@
       <td colspan="2"><p><a href="../about-the-doctor.html">Home </a><a href="../the-doctors/index.html">The Doctors</a> <a href="../the-companions/index.html">Companions</a> <a href="../the-villans/index.html">Villians</a></p></td>
     </tr>
     <tr>
-      <td colspan="2"><!-- TemplateBeginEditable name="Banner" -->[Banner]<!-- TemplateEndEditable --></td>
+      <td colspan="2"><!-- TemplateBeginEditable name="Banner" --><img src="../images/banners/banner-home.jpg" width="950" height="150" alt=""/><!-- TemplateEndEditable --></td>
     </tr>
     <tr>
-      <td><p>&nbsp;</p>
-        <!-- TemplateBeginIf cond="_document['The Doctor Secondary Menu']" -->
+      <td class:"secondary"><!-- TemplateBeginIf cond="_document['The Doctor Secondary Menu']" -->
         <table>
           <tr>
             <td width="131"><p><a href="../the-doctors/1-william-hartnell.html">The First Doctor</a></p></td>
